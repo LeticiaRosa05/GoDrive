@@ -1,6 +1,6 @@
 # 🚗 GoDrive - motoristas particulares e serviços personalizados<br>
 
-Este projeto tem como objetivo representar digitalmente uma pequena empresa (fictícia) de **motoristas particulares**, oferecendo aos clientes informações claras sobre os serviços prestados, canais de contato acessíveis e uma navegação fluida que favorece a experiência do usuário.<br><br>
+Este projeto tem como objetivo apresentar o site de uma pequena empresa fictícia de **motoristas particulares**, oferecendo aos clientes informações claras sobre os serviços prestados, canais de contato acessíveis e uma navegação fluida que favorece a experiência do usuário.<br><br>
 
 ## 🎯 Propósito<br>
 
@@ -50,6 +50,7 @@ Projetado com foco na **usabilidade** e **aparência**, o site permite que o vis
 
 ## ⚙️ Como executar localmente<br>
 
+É necessário ter o Git instalado na máquina para executar os comandos.<br>
 ```bash
 git clone https://github.com/LeticiaRosa05/GoDrive.git
 cd GoDrive
