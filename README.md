@@ -1,6 +1,6 @@
 # 🚗 GoDrive - motoristas particulares e serviços personalizados<br>
 
-Este projeto tem como objetivo representar digitalmente uma pequena empresa (fictícia) de **motoristas particulares**, oferecendo aos clientes informações claras sobre os serviços prestados, canais de contato acessíveis e uma navegação fluida que favorece a experiência do usuário.<br><br>
+Este projeto tem como objetivo apresentar o site de uma pequena empresa fictícia de **motoristas particulares**, oferecendo aos clientes informações claras sobre os serviços prestados, canais de contato acessíveis e uma navegação fluida que favorece a experiência do usuário.<br><br>
 
 ## 🎯 Propósito<br>
 
