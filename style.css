@@ -5,6 +5,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  ::selection {
+    background: #149a08;
+    color: #fff8f0;
+  }
+  br::selection {
+    background: transparent;
+    color: inherit;
+  }
 }
 
 body, html {
