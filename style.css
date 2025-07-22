@@ -110,7 +110,7 @@ p, h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, 500%); /* ajusta a altura do escrito na frente da imagem */
-  min-width: 1100px;
+  min-width: 1200px;
   text-align: center;
 
   /* estilização do texto na frente da imagem */
