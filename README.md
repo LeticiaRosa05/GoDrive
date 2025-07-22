@@ -21,15 +21,15 @@ Este projeto tem como objetivo representar digitalmente uma pequena empresa (fic
 
 ## 🗂️ Estrutura do projeto<br>
 
-GoDrive/
-├── demonst_site/
-├── img/
-├── faleConosco.html
-├── frota.html
-├── index.html
-├── README.md
-├── script.js
-├── servicos.html
+GoDrive/<br>
+├── demonst_site/<br>
+├── img/<br>
+├── faleConosco.html<br>
+├── frota.html<br>
+├── index.html<br>
+├── README.md<br>
+├── script.js<br>
+├── servicos.html<br>
 ├── style.css<br><br>
 
 ## 📸 Demonstração<br>
