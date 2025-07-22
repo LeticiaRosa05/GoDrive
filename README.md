@@ -51,6 +51,6 @@ Projetado com foco na **usabilidade** e **aparência**, o site permite que o vis
 ## ⚙️ Como executar localmente
 
 ```bash
-git clone https://github.com/seu-usuario/GoDv.git
+git clone [https://github.com/seu-usuario/GoDv.git](https://github.com/LeticiaRosa05/GoDrive.git)
 cd GoDrive
 # Abrir o index.html em seu navegador
