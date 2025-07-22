@@ -50,6 +50,7 @@ Projetado com foco na **usabilidade** e **aparência**, o site permite que o vis
 
 ## ⚙️ Como executar localmente<br>
 
+É necessário ter o Git instalado na máquina para executar os comandos.<br>
 ```bash
 git clone https://github.com/LeticiaRosa05/GoDrive.git
 cd GoDrive
