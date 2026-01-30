@@ -1,4 +1,4 @@
-window.addEventListener('scroll', function() {
+function paralaxIndex() {
     let parallax = document.querySelector('.GDH_paralax');
     let nF_parallax = document.querySelector('.GDnF_paralax');
     let S_parallax = document.querySelector('.GDS_paralax');
@@ -12,7 +12,9 @@ window.addEventListener('scroll', function() {
     if (S_parallax) {
         S_parallax.style.backgroundPositionY = -(scrollPosition * 0.5) + 'px';
     }
+}
 
+function mudaCorElementos() {
     const mudaCor = document.querySelector('.mudaCor');
     const sectionMs = document.querySelectorAll('.section_modal');
     const campoM = document.querySelectorAll('.modal_campo');
@@ -96,45 +98,14 @@ window.addEventListener('scroll', function() {
             ps.forEach(p => p.style.color = 'transparent');
         }
     }
+}
+
+window.addEventListener('scroll', function() {
+    paralaxIndex();
+    mudaCorElementos();
 });
 
-const imagens = document.querySelectorAll('.item'); /* zoom na lista de características da empresa, pg index; serviços na pg serviços */
-const carrosE = document.querySelectorAll('.carrosEscala'); /*  carros na pg Nossa frota */
-
-imagens.forEach(img => {
-    img.style.transition = "transform 0.2s ease";
-
-    img.addEventListener('mouseover', () => {
-        img.style.transform = "scale(1.2)";
-    });
-
-    img.addEventListener('mouseout', () => {
-        img.style.transform = "scale(1)";
-    });
-});
-
-carrosE.forEach(carros => {
-    carros.style.transition = "transform 0.3s ease";
-
-    carros.addEventListener('mouseover', () => {
-        carros.style.transform = "scale(1.15)";
-    });
-
-    carros.addEventListener('mouseout', () => {
-        carros.style.transform = "scale(1)";
-    });
-});
-
-document.getElementById('buttonContato').onclick = function() {
-    document.getElementById('modalContato').style.display = 'flex';
-};
-document.getElementById('closeModal').onclick = function() {
-    document.getElementById('modalContato').style.display = 'none';
-};
-
-window.onclick = function(event) {  /* fecha o modal se clicar fora dele */
-    var modal = document.getElementById('modalContato');
-    if (event.target === modal) {
-        modal.style.display = 'none';
-    }
-};
+document.addEventListener('DOMContentLoaded', function() {
+    paralaxIndex();
+    mudaCorElementos();
+})
